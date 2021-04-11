@@ -10,3 +10,15 @@ Inline $3 = \int fdx$
 Not inline $$e^{i\pi}=-1$$
 Reallly not inline
 $$e^{i2\pi} = 1$$
+
+Testing math again
+
+Inline $3 = \int fdx$
+
+Not inline $$e^{i\pi}=-1$$
+
+Reallly not inline
+
+$$e^{i2\pi} = 1$$
+
+ok test over
