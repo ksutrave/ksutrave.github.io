@@ -23,9 +23,11 @@ So what could go wrong, or rather, *where* could something go wrong? The criteri
 
 IMAGE 1
 
-![2021-1-31 - 1]({{ site.baseurl }}/_posts/2021-1-31-1.png)
+![2021-1-31 - 1](/2021-1-31-1.png)
 
 When something is "really bad" in analysis, it could be blowing up to infinity or possibly be oscillating like crazy. Consider the latter, a set with really bad "teeth". If we place a test set right over the teeth, we can see why we might get an inequality when measuring the split sets.
+
+IMAGE 2 
 
 ![2021-1-31 - 2]({{ site.baseurl }}/_posts/2021-1-31 - 2.png)
 
@@ -49,6 +51,8 @@ $$
 \psi(x) = \begin{cases}0 & \text{for negative $x$} \\x & \text{for positive $x$}\end{cases} \nonumber
 $$
 
+IMAGE 4 
+
 <img src="2021-1-31 - 4.png" alt="2021 Jan 31 - 4" style="zoom:50%;" />
 
 But not every function has a weak derivative. Like the step function:
@@ -60,6 +64,8 @@ $$
 1 & \text{for positive $x$}
 \end{cases} \nonumber
 $$
+
+IMAGE 3 
 
 <img src="2021-1-31 - 3.png" alt="2021 Jan 31 - 3" style="zoom:50%;" />
 
