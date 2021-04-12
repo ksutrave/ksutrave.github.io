@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Keshav = $$=$$ grad student $$\in$$ geometry
+Keshav $$=$$ grad student $$\in$$ geometry
 
 ### Contact me
 
