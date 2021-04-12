@@ -6,7 +6,9 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    <!-- Written on {{ page.date | date: "%B %e, %Y" }} -->
+    <!-- lookup SQL date format -->
+    {{ page.date | date: "%Y - %c - %e" }}
   </div>
   
   <div class="entry">
