@@ -44,7 +44,7 @@ If $$u$$ was differentiable, then $$v=u'$$ satisfies this formula by actual inte
 There are indeed some weakly-but-not-strongly-differentiable functions, like this angular function:
 
 $$
-\psi(x) = \begin{cases}0 & \text{for negative }x \\ x & \text{for positive }x\end{cases}
+\psi(x) = \begin{cases}0 & \text{for negative $$x$$} \\x & \text{for positive $$x$$}\end{cases}
 $$
 
 ![2021-1-31-3]({{ site.baseurl }}/images/2021-1-31-3.png)
@@ -54,8 +54,8 @@ But not every function has a weak derivative. Like the step function:
 $$
 \theta(x) = 
 \begin{cases}
-0 & \text{for negative }x \\
-1 & \text{for positive }x
+0 & \text{for negative $$x$$} \\
+1 & \text{for positive $$x$$}
 \end{cases}
 $$
 
@@ -93,4 +93,4 @@ $$
 
 which is a contradiction. 
 
-Again, notice how we used the concentrating test functions to focus on the discontinuity of $$\theta(0)$$.
+Again, notice how we used the concentrating test functions to focus on the discontinuity at $$\theta(0)$$.
