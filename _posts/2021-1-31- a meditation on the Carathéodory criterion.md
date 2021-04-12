@@ -8,12 +8,15 @@ My gap between learning this definition and actually making (at least some) sens
 $$
 \mu(E) = \mu(E\cap A) + \mu(E\cap A^c) \label{eq:1}
 $$
-Officially: we start with an outer measure $\mu$. All of this is defined for the abstract setting, but you can just picture the story in $\R^n$ if you've heard it. Here the outer measure approximates the size of any set using something with an easy shape like euclidean boxes to cover sets and measures the size of those instead. It uses finer boxes to get a better approximation.
+
+Officially: we start with an outer measure $$\mu$$. All of this is defined for the abstract setting, but you can just picture the story in $$\R^n$$ if you've heard it. Here the outer measure approximates the size of any set using something with an easy shape like euclidean boxes to cover sets and measures the size of those instead. It uses finer boxes to get a better approximation.
 
 But allowing *all* sets is bad, there are problematic sets out there. Apparently. Actually, I don't know so much about the problems/paradoxes that show up, but this is ringing a Banach-Tarski bell. In any case, they must involve non-measurable sets. We restrict $\mu$ to only measure measurable sets. A set $A$ is called *measurable* if, for every set $E$, it satisfies the "splitting" equality $(\ref{eq:1})$ above. In fact by subadditivity, one inequality ($\leq$) is always true. So the nontrivial property for measurable sets is that
+
 $$
 \mu(E) \not< \mu(E\cap A) + \mu(E\cap A^c). \nonumber
 $$
+
 Think of $E$ as a "testing" set. We have a fixed set $A$, the measurability of which we want to test using different sets $E$. If we picked a test set with infinite measure, then the condition is easily satisfied. So this should suggest that we should be using finite measure sets, and **testing small, local properties** of $A$. 
 
 So what could go wrong, or rather, *where* could something go wrong? The criterion involves both $E\cap A$ and $E\cap A^c$. If either of these is empty, then we again have full equality. So we should be **testing the boundary** of $A.$ And something could go wrong if the boundary is really bad somewhere. 
