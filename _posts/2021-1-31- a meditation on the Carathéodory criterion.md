@@ -25,7 +25,7 @@ So what could go wrong, or rather, *where* could something go wrong? The criteri
 
 When something is "really bad" in analysis, it could be blowing up to infinity or possibly be oscillating like crazy. Consider the latter, a set with really bad "teeth". If we place a test set right over the teeth, we can see why we might get an inequality when measuring the split sets.
 
-![2021-1-31 - 2](/Users/keshav/Documents/Atom/2021/2021-1-31 - 2.png)
+![2021-1-31 - 2]({{ site.baseurl }}/images/2021/2021-1-31 - 2.png)
 
 Remember that we're using an outer measure. If the oscillation is truly terrible, it's hard to get boxes into the teeth that are able to distinguish the inside of $$A$$ from the outside. We are forced to overestimate both regions, which leads to a strict inequality precisely at the teeth.
 
