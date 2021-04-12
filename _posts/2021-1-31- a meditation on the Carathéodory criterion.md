@@ -21,7 +21,9 @@ Think of $$E$$ as a "testing" set. We have a fixed set $A$, the measurability of
 
 So what could go wrong, or rather, *where* could something go wrong? The criterion involves both $$E\cap A$$ and $$E\cap A^c$$. If either of these is empty, then we again have full equality. So we should be **testing the boundary** of $$A$$. And something could go wrong if the boundary is really bad somewhere. 
 
-![2021-1-31 - 1]({{ site.baseurl }}/_posts/2021-1-31 - 1.png)
+IMAGE 1
+
+![2021-1-31 - 1]({{ site.baseurl }}/_posts/2021-1-31-1.png)
 
 When something is "really bad" in analysis, it could be blowing up to infinity or possibly be oscillating like crazy. Consider the latter, a set with really bad "teeth". If we place a test set right over the teeth, we can see why we might get an inequality when measuring the split sets.
 
@@ -47,7 +49,7 @@ $$
 \psi(x) = \begin{cases}0 & \text{for negative $x$} \\x & \text{for positive $x$}\end{cases} \nonumber
 $$
 
-<img src="2021-1-31 - 4.png" style="zoom:50%;" />
+<img src="2021-1-31 - 4.png" alt="2021 Jan 31 - 4" style="zoom:50%;" />
 
 But not every function has a weak derivative. Like the step function:
 
