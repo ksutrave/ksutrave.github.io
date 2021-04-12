@@ -59,7 +59,7 @@ $$
 \end{cases} \nonumber
 $$
 
-<img src="/Users/keshav/Documents/Atom/2021/2021-1-31 - 3.png" alt="2021 Jan 31 - 3" style="zoom:50%;" />
+<img src="2021-1-31 - 3.png" alt="2021 Jan 31 - 3" style="zoom:50%;" />
 
 In fact $$\theta = \psi'$$ (weakly), which you might intuit. To show that $$\theta$$ has no weak derivative, we will suppose one exists, and then use test functions to look closely at what happens around $$x=0$$.
 
