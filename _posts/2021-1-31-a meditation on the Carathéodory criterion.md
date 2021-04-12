@@ -44,7 +44,7 @@ If $$u$$ was differentiable, then $$v=u'$$ satisfies this formula by actual inte
 There are indeed some weakly-but-not-strongly-differentiable functions, like this angular function:
 
 $$
-\psi(x) = \begin{cases}0 & \text{for negative $$x$$} \\x & \text{for positive $$x$$}\end{cases} \nonumber
+\psi(x) = \begin{cases}0 & \text{for negative $$x$$} \\x & \text{for positive $$x$$}\end{cases}
 $$
 
 ![2021-1-31-3]({{ site.baseurl }}/images/2021-1-31-3.png)
@@ -56,7 +56,7 @@ $$
 \begin{cases}
 0 & \text{for negative $$x$$} \\
 1 & \text{for positive $$x$$}
-\end{cases} \nonumber
+\end{cases}
 $$
 
 ![2021-1-31-4]({{ site.baseurl }}/images/2021-1-31-4.png)
@@ -67,7 +67,6 @@ Define a sequence of test functions $$\varphi_n$$ which "concentrate" around $$x
 
 $$
 \varphi_n(0) = 1, \qquad \text{support}(\varphi_n) \subseteq \left[-\frac{1}n,\frac1n\right]
-\nonumber
 $$
 
 One can imagine smoothing out iscoceles triangles, with shrinking widths and constant height 1, to get a sequence of "narrowing bumps". 
@@ -77,21 +76,18 @@ One can imagine smoothing out iscoceles triangles, with shrinking widths and con
 The integration by parts equation then becomes (considering the supports):
 
 $$
--\int_{-\frac1n}^{\frac1n} \theta\varphi_n' = \int_{-\frac1n}^{\frac1n} \theta' \varphi_n 
-\nonumber
+-\int_{-\frac1n}^{\frac1n} \theta\varphi_n' = \int_{-\frac1n}^{\frac1n} \theta' \varphi_n
 $$
 
 The left side is in fact always 1.
 
 $$
 -\int_{-\frac1n}^{\frac1n}\theta\varphi_n' = -\int_0^{\frac1n}\varphi_n' = -\varphi_n(1/n) + \varphi_n(0) = \varphi_n(0) = 1
-\nonumber
 $$
 
 Meanwhile on the right side, the integrand is bounded by the constant 1. And because of their shrinking supports, the test functions are limiting pointwise (almost everywhere) to the constant 0 function. So by a (bounded or dominated) convergence theorem, we have
 
 $$
-\nonumber
 \int \theta'\varphi_n \longrightarrow 0,
 $$
 
