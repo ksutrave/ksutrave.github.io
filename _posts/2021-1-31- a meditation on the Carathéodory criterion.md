@@ -3,7 +3,7 @@ layout: post
 title: a meditation on the Carathéodory criterion
 ---
 
-My gap between learning this definition and actually making (at least some) sense of it was longer than I usually have with situations in analysis. Here's one thing I've come up with to explain what it's trying to do.
+fdsaMy gap between learning this definition and actually making (at least some) sense of it was longer than I usually have with situations in analysis. Here's one thing I've come up with to explain what it's trying to do.
 
 $$
 \mu(E) = \mu(E\cap A) + \mu(E\cap A^c)
