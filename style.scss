@@ -283,6 +283,14 @@ footer {
   text-align: center;
 }
 
+/* Keshav: trying to center images by default in the "entry" class */
+
+.entry img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
