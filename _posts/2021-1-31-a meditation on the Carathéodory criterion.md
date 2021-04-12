@@ -54,8 +54,8 @@ But not every function has a weak derivative. Like the step function:
 $$
 \theta(x) = 
 \begin{cases}
-0 & \text{for negative $$x$$} \\\\
-1 & \text{for positive $$x$$}
+0 & \text{for negative }x \\\\
+1 & \text{for positive }x
 \end{cases}
 $$
 
