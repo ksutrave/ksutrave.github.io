@@ -1,8 +1,8 @@
-<!-- ---
+---
 layout: page
 title: About
 permalink: /about/
---- -->
+---
 
 Keshav = $$=$$ grad student $$\in$$ geometry
 
