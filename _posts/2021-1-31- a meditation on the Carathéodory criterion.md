@@ -5,7 +5,7 @@ title: a meditation on the Carathéodory criterion
 
 My gap between learning this definition and actually making (at least some) sense of it was longer than I usually have with situations in analysis. Here's one thing I've come up with to explain what it's trying to do.
 
-$$\mu(E) = \mu(E\cap A) + \mu(E\cap A^c) \label{eq:1}$$
+$$\mu(E) == \mu(E\cap A) + \mu(E\cap A^c) \label{eq:1}$$
 
 Officially: we start with an outer measure $$\mu$$. All of this is defined for the abstract setting, but you can just picture the story in $$\R^n$$ if you've heard it. Here the outer measure approximates the size of any set using something with an easy shape like euclidean boxes to cover sets and measures the size of those instead. It uses finer boxes to get a better approximation.
 
