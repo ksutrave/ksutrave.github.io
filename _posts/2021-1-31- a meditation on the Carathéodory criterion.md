@@ -23,7 +23,7 @@ So what could go wrong, or rather, *where* could something go wrong? The criteri
 
 IMAGE 1
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![2021-1-31-1]({{ site.baseurl }}/images/2021-1-31-1.png)
 
 When something is "really bad" in analysis, it could be blowing up to infinity or possibly be oscillating like crazy. Consider the latter, a set with really bad "teeth". If we place a test set right over the teeth, we can see why we might get an inequality when measuring the split sets.
 
