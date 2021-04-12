@@ -67,7 +67,6 @@ Define a sequence of test functions $$\varphi_n$$ which "concentrate" around $$x
 
 $$
 \varphi_n(0) = 1, \qquad \text{support}(\varphi_n) \subseteq \left[-\frac{1}n,\frac1n\right]
-\nonumber
 $$
 
 One can imagine smoothing out iscoceles triangles, with shrinking widths and constant height 1, to get a sequence of "narrowing bumps". 
@@ -78,13 +77,11 @@ The integration by parts equation $(\ref{eq:ibp})$ then becomes (considering the
 
 $$
 -\int_{-\frac1n}^{\frac1n} \theta\varphi_n' = \int_{-\frac1n}^{\frac1n} \theta' \varphi_n 
-\nonumber
 $$
 
 The left side is in fact always 1.
 $$
 -\int_{-\frac1n}^{\frac1n}\theta\varphi_n' = -\int_0^{\frac1n}\varphi_n' = -\varphi_n(1/n) + \varphi_n(0) = \varphi_n(0) = 1
-\nonumber
 $$
 Meanwhile on the right side, the integrand is bounded by the constant 1. And because of their shrinking supports, the test functions are limiting pointwise (almost everywhere) to the constant 0 function. So by a (bounded or dominated) convergence theorem, we have
 $$
