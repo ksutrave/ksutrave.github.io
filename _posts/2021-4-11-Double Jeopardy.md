@@ -61,6 +61,7 @@ Suppose $$F$$ is linear. Then it can be described by a matrix.
 
 $$
 F = \begin{bmatrix}a & b \\ c & d\end{bmatrix} \\
+\\
 F\left(\begin{bmatrix}x\\y\end{bmatrix}\right)=\begin{bmatrix}a & b \\ c & d\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix} = \begin{bmatrix}ax+by\\cx+dy\end{bmatrix}
 $$
 
