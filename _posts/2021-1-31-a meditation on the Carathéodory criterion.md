@@ -47,7 +47,7 @@ $$
 \psi(x) = \begin{cases}0 & \text{for negative }x \\x & \text{for positive }x \end{cases}
 $$
 
-![2021-1-31-3](/files/images/2021-1-31-3.png)
+![2021-1-31-3]({{ site.baseurl }}/images/2021-1-31-3.png)
 
 But not every function has a weak derivative. Like the step function:
 
