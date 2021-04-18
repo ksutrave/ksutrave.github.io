@@ -72,7 +72,7 @@ $$
 
 So this is what's going on. Anytime we arrange (four) numbers into a (2x2) matrix, we *can think of it as* a linear map (from $$\R^2$$ to $$\R^2$$). So if we treat the Jacobian as a linear map rather than as just a package of derivatives, then it happens to be equal to the original linear map $$F$$. In this way, any linear map is equal to its derivative (shown above). Conversely, if $$F$$ is equal to its derivative $$dF$$ as a function, then $$F$$ must be linear just because $$dF$$ is linear by it's functional definition!
 
-Can you see what's going on?Do you feel cheated? Is it correct to treat $$dF$$ as a linear map this way? Is there any value to doing so? What exactly are we doing differently in the exponential situation above? And what does the rest of my dream mean?
+Do you feel cheated? Is it correct to treat $$dF$$ as a linear map this way? Is there any value to doing so? What exactly are we doing differently in the exponential situation above? And what does the rest of my dream mean?
 
 > Alex Trebek: correct!
 >
